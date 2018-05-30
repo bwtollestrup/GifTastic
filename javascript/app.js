@@ -38,7 +38,7 @@ function addClickListenerToButton(button) {
                 var p = $("<p>").text("Image Rating: " + rating);
                 var dogImage = $("<img>");
                 dogImage.attr("src", results[i].images.fixed_height.url);
-                dogImage.attr("alt", "Where'd all the puppies go?");
+                dogImage.attr("alt", "Where'd all the pups go?");
                 dogDiv.append(p, dogImage);
                 $("#dog-view").prepend(dogDiv);
             }

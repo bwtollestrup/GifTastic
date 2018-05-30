@@ -1,3 +1,8 @@
 button, div, form, input {
       margin: 10px;
     }
+
+#dog-form, #btn-view, h1, #add-dog, #dog-view {
+  align-content: center;
+  text-align: center;
+}
